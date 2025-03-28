@@ -8,6 +8,7 @@ public class Principal {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
+        // Inicio
         System.out.print("Introduzca la cantidad de personas que desea registrar: ");
         int numPersonas = scan.nextInt();
         Persona[] personas = new Persona[numPersonas];
