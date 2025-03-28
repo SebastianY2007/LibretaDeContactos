@@ -6,15 +6,6 @@ public class Persona {
     private String apellido;
     private String direccion;
 
-    public Persona(String cedula){
-        this.cedula = cedula;
-    }
-
-    public Persona(String nombre, String apellido){
-        this.nombre = nombre;
-        this.apellido = apellido;
-    }
-
     public Persona(String cedula, String nombre, String apellido, String direccion) {
         this.cedula = cedula;
         this.nombre = nombre;
@@ -56,11 +47,6 @@ public class Persona {
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
-    }
-
-    public int sumar(int num1, int num2){
-        int suma = num1 + num2;
-        return suma;
     }
 
     @Override

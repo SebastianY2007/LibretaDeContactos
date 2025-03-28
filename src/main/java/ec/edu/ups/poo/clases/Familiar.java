@@ -7,8 +7,6 @@ public class Familiar extends Persona {
     private String tipoDeSangre;
     private GregorianCalendar fechaDeNacimiento;
 
-    public Familiar() {}
-
     public Familiar(String cedula, String nombre, String apellido, String direccion, String parentesco, String tipoDeSangre, GregorianCalendar fechaDeNacimiento) {
         super(cedula, nombre, apellido, direccion);
         this.parentesco = parentesco;
