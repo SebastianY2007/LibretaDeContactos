@@ -9,7 +9,7 @@ public class Principal {
         Scanner scan = new Scanner(System.in);
 
         // Inicio
-
+        //No hizo el deber
         System.out.print("Introduzca la cantidad de personas que desea registrar: ");
         int numPersonas = scan.nextInt();
         Persona[] personas = new Persona[numPersonas];
