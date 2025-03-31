@@ -17,6 +17,7 @@ public class Principal {
         Familiar[] familia = new Familiar[numFamiliares];
         System.out.println("-".repeat(70));
         for (int i = 0; i < numPersonas; i++) {
+            System.out.println("Ingrese los datos:");
             System.out.print("Ingrese el numero de cedula de la persona "+(i+1)+": ");
             String cedula = scan.next();
             System.out.print("Ingrese el nombre de la persona "+(i+1)+": ");
